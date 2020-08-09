@@ -14,7 +14,7 @@ export function HomeTabBar(props: BottonHomeScreenProps) {
     props.navigation.navigate(selectedTabRoute);
   };
 
-  const createNavigationTabForRoute = (route) => {
+  const createNavigationTabForRoute = (route: any) => {
     const { options } = props.descriptors[route.key];
     return (
       <BottomNavigationTab

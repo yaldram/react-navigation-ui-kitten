@@ -13,7 +13,7 @@ import { RouteProp, CompositeNavigationProp } from "@react-navigation/native";
 import React from "react";
 
 import { HomeIcon, InfoIcon, LayoutIcon, PersonIcon } from "../assets/Icons";
-import { HomeDrawerContent, Home, AboutScreen } from "../screens/home";
+import { HomeDrawerContent, AboutScreen } from "../screens/home";
 import { HomeTabBar } from "../screens/home/HomeTabBar";
 import { AppRoute } from "./app.routes";
 import { ProfileNavigator } from "./profile.navigator";
