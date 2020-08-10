@@ -1,6 +1,5 @@
 import {
   createBottomTabNavigator,
-  BottomTabBarButtonProps,
   BottomTabNavigationProp,
   BottomTabBarProps,
 } from "@react-navigation/bottom-tabs";
